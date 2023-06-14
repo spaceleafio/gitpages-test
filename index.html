@@ -4,28 +4,41 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- Website Navigation / Menu -->
-        <nav>
-            <img>Logo</img>
-            <ul class="nav-list">
-                <li><a href="index.html">About</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <!-- Website Navigation / Menu, <nav> behaves like a div box  -->
+            <nav>
+                <!-- Logo Placeholder -->
+                <img src="./logo.png"
+                    class="logo"
+                />
+                <!-- Navigation Links -->
+                <ul class="nav-list">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
 
-        <!-- Main Website Content -->
-        <main>
-            <h1>About</h1>
-            <h2>Something about my portfolio:</h2>
-            <p>I think spiders are pretty cool...</p>
-            <img src="https://insektenliebe.com/wp-content/uploads/2021/08/Caribena-versicolor.jpg" width="200px"></img>
-            <div class="button-box">
-                <button class="button" onclick="console.log('Hello...')">
-                    Click Me!
-                </button>
-            </div>
-
-        </main>
+            <!-- Main Website Content, <main> behaves like a div box -->
+            <main>
+                <!-- Header -->
+                <h1>Home</h1>
+                <!-- Sub-header -->
+                <h2 style="">About</h2>
+                <!-- Paragraph text -->
+                <p>I think spiders are pretty cool...</p>
+                <!-- Images -->
+                <img src="https://insektenliebe.com/wp-content/uploads/2021/08/Caribena-versicolor.jpg" width="200px" />
+                <!-- 'DIV's, like our website building blocks/boxes for shape and layout -->
+                <div class="button-box">
+                    <!-- Button inside a div -->
+                    <button class="button" onclick="console.log('Hello...')">
+                        Click Me!
+                    </button>
+                </div>
+            </main>
+            <!-- Websit Footer, <footer> behaves like a div box -->
+            <footer>
+                <p>© 2023 The Design Studio</p>
+            </footer>
     </body>
 </html>
