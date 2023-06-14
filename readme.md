@@ -3,4 +3,4 @@ This is a very simple bare-bones first website made for / with kids in my family
 Public for sharing practicality, it may or may not be developped further. 
 
 Publishes to Github Pages as is.
-ie, this repo updates at: https://spaceleafio.github.io/website-test/
+ie, this repo updates at: https://spaceleafio.github.io/gitpages-test/
