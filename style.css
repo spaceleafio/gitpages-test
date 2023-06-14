@@ -1,7 +1,7 @@
 body {
     background-color: #121212;    ; 
     color: #EEE2DE;
-    border: red 2px solid;
+    /* border: red 2px solid; */
 }
 h1 {
     color: #EEE2DE;
@@ -15,10 +15,10 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: center;
-    border: yellow 2px solid;
+    /* border: yellow 2px solid; */
 }
 main {
-    border: limegreen 2px solid;
+    /* border: limegreen 2px solid; */
     display: flex;
     flex-direction: column;
     justify-content: center;
