@@ -20,8 +20,9 @@ nav {
     background-color: #232323;
 }
 nav a {
-    color: #00B7C2;
+    color: #8652F8;
     font-size: 10pt;
+    text-decoration: none; 
 }
 main {
     /* border: limegreen 2px solid; */
@@ -30,14 +31,16 @@ main {
     display: flex; 
     flex-grow: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin: 0 auto;
+    padding-top: 4rem;
 }
 footer{
     display: flex;
     justify-content: center;
     font-size: 6pt;
+    color: #8652F8;
 }
 h1 {
     color: #EEE2DE;
@@ -54,10 +57,6 @@ h1 {
 .nav-list li {
     margin-left: 20px; 
 }
-.nav-list li a {
-
-    text-decoration: none; 
-}
 .button-box{
     /* border: 1px pink solid; */
     width: 150px;
@@ -71,4 +70,8 @@ h1 {
     font-size: 16px;
     background-color: rgba(255,255,255,0.1);
     color: white;
+}
+.button:hover{
+    background-color: rgba(0,255,255,0.1);
+    color: yellow;
 }
